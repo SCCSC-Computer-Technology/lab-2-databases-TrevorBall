@@ -1,0 +1,38 @@
+Lab 2 Code Review
+By Shawn Conboy
+
+First Impressions
+
+	This looks good. Clean UI. Initially, I had to move the city tab over just a bit
+	to see the full names of some cities.
+
+	I'm clicking on the cities or population numbers and seeing them be shown on the
+	left in the detail view. That's pretty nice.
+
+	All buttons work smoothly, and message boxes are nice and formatted.
+
+Is the code generally readable and well documented?
+
+	Yes. Code is readable. Comments explain methods. I see try and catches, nice touch.
+	"Trevor made a mistake" is hilarious.
+
+Did you find any software defects?
+
+	If i try to add my own city and population from the data grid view, the app crashes.
+	I'm sure this is because the "Allow Null" boxes are unchecked in your database 
+	builder. So when I add only a city and population, I'm still missing a State, so the 
+	compiler shuts it down.
+
+What was one way that your solution differed from yours?
+
+	Our programs are honestly very similar, layout wise. I didn't use message boxes.
+	That would be our primary difference. I used labels that get updated based on 
+	button clicks.
+
+Do you have any other constructive comments for the author?
+
+	No comments that have not already been mentioned. I really like the UI here. It's
+	clean, and the program is simple to use.
+	
+	After looking at your databases xsd file, I'm not seeing a City_ID or State column
+	your table. So my statement earlier about the state being missing may be invalid.
