@@ -1,0 +1,16 @@
+Trevor - Lab 2 Code Review
+
+First Impression:
+I like that you have a background color on your form. You wrapped everything in try/catches which is a good move.
+
+Readable:
+Everything is very readable. I also like your messages for if data is missing.
+
+Errors:
+No errors found.
+
+How our programs differed:
+I had my buttons sorted into categories with group boxes. I also had a group box for editing/adding cities.
+
+Constructive criticism:
+I feel like the buttons for finding the average/lowest/total/max population are out of order, and I think the buttons for lowest and max population should be next to each other. Also when you click on the buttons for lowest/max population, it doesn't tell you the name of the city with that population.
